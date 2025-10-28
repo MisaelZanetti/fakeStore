@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import "./Productos.css";
+import { Link } from "react-router-dom";
 
 export default function Productos() {
   const [productos, setProductos] = useState([]);
@@ -30,6 +31,7 @@ export default function Productos() {
             <p className="producto-rating">
               ⭐ {producto.rating.rate} ({producto.rating.count} reseñas)
             </p>
+            <Link to={`/producto/${producto.id}`}><button className="verDt">Ver detalles</button></Link>
           </div>
         ))}
       </div>

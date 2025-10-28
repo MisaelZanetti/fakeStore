@@ -79,3 +79,65 @@
   font-size: 16px;
   margin-top: 40px;
 }
+
+.detalle-container {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+}
+
+.volver {
+  display: inline-block;
+  margin-bottom: 1rem;
+  text-decoration: none;
+  color: #007bff;
+  font-weight: 600;
+}
+
+.detalle-card {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+.detalle-card img {
+  width: 250px;
+  height: 250px;
+  object-fit: contain;
+}
+
+.detalle-info {
+  flex: 1;
+  text-align: left;
+}
+
+.detalle-info h2 {
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+}
+
+.descripcion {
+  margin: 1rem 0;
+  color: #555;
+}
+
+.precio {
+  color: green;
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+.rating {
+  color: #ffb400;
+}
+
+.verDt {
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: 0px;
+  background-color: rgb(255, 56, 86);
+  color: hsl(0, 0%, 100%);
+}
